@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    }
+    /* Gaya umum untuk body */
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    }
+    /* Gaya untuk header */
+    header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    }
+    /* Container form */
+    .form-container {
+    width: 50%;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    /* Gaya untuk label */
+    form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    }
+    /* Gaya untuk input field */
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="password"],
+    form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+    /* Gaya untuk tanggal */
+    form input[type="date"] {
+    width: 50%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    }
+    /* Gaya untuk file upload */
+    form input[type="file"] {
+    margin-bottom: 1rem;
+    }
+    /* Gaya untuk tombol submit */
+    form input[type="submit"] {
+    font-weight: bold;
+    background-color: #28a745;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    }
+    /* Hover efek pada tombol submit */
+    form input[type="submit"]:hover {
+    background-color: #218838;
+    }
